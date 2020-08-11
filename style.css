@@ -112,3 +112,27 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+@media only screen and (max-width: 725px){
+    
+    
+    #intro, #pricing, #benefits {
+        box-sizing: content-box;
+        width: 60%;
+        display: inline-block;
+        padding: 15px 35px;
+    }
+    
+    #benefits {
+        float: left;
+    }
+    
+    #pricing {
+        border-radius: 0;
+    }
+    
+    #benefits {
+        border-bottom-left-radius:10px;
+    }
+
+}
